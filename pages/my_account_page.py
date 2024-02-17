@@ -19,19 +19,19 @@ class MyAccountPage:
         self.driver.get("http://seleniumdemo.com/?page_id=7")
 
     def log_in(self, username, password):
-        self.driver.find_element(self.username_input).send_keys(username)
-        self.driver.find_element(self.password_input).send_keys(password)
-        self.driver.find_element(self.password_input).send_keys(Keys.ENTER)
+        self.driver.find_element(*self.username_input).send_keys(username)
+        self.driver.find_element(*self.password_input).send_keys(password)
+        self.driver.find_element(*self.password_input).send_keys(Keys.ENTER)
 
     def create_account(self, email, password):
-        self.driver.find_element(self.req_email_input).send_keys(email)
-        self.driver.find_element(self.req_password_input).send_keys(password)
-        self.driver.find_element(self.req_password_input).send_keys(Keys.ENTER)
+        self.driver.find_element(*self.req_email_input).send_keys(email)
+        self.driver.find_element(*self.req_password_input).send_keys(password)
+        self.driver.find_element(*self.req_password_input).send_keys(Keys.ENTER)
 
     def is_logout_link_displayed(self):
-        return self.driver.find_element(self.logout_link).is_displayed()
+        return self.driver.find_element(*self.logout_link).is_displayed()
 
     def get_error_msg(self):
-        return self.driver.find_element(self.error_msg).text
+        return self.driver.find_element(*self.error_msg).text
 
 
