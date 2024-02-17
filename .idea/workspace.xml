@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="logging in - with wrong data">
-      <change afterPath="$PROJECT_DIR$/create_account.py" afterDir="false" />
+    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="account creation failed/passed">
+      <change afterPath="$PROJECT_DIR$/update_billing_address.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_account.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
     "Python tests.Python tests for create_account.test_create_account_passed.executor": "Run",
     "Python tests.Python tests for login_test.test_log_in.executor": "Run",
     "Python tests.Python tests for login_test.test_log_in_failed.executor": "Run",
+    "Python tests.Python tests for update_billing_address.test_update_billing_address.executor": "Run",
     "Python tests.Python tests in create_account.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -47,7 +49,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in create_account.py">
+  <component name="RunManager" selected="Python tests.Python tests for update_billing_address.test_update_billing_address">
     <configuration name="Python tests for create_account.test_create_account_failed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="selenium_demo_project" />
       <option name="ENV_FILES" value="" />
@@ -78,21 +80,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for login_test.test_log_in" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="selenium_demo_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_test.test_log_in&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for login_test.test_log_in_failed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="selenium_demo_project" />
       <option name="ENV_FILES" value="" />
@@ -105,6 +92,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;login_test.test_log_in_failed&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for update_billing_address.test_update_billing_address" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="selenium_demo_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;update_billing_address.test_update_billing_address&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in create_account.py" />
+        <item itemvalue="Python tests.Python tests for update_billing_address.test_update_billing_address" />
         <item itemvalue="Python tests.Python tests for create_account.test_create_account_passed" />
+        <item itemvalue="Python tests.Python tests in create_account.py" />
         <item itemvalue="Python tests.Python tests for create_account.test_create_account_failed" />
         <item itemvalue="Python tests.Python tests for login_test.test_log_in_failed" />
-        <item itemvalue="Python tests.Python tests for login_test.test_log_in" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707895413199</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="account creation failed/passed">
+      <option name="closed" value="true" />
+      <created>1707897046480</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707897046480</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="logging in" />
     <MESSAGE value="logging in - with wrong data" />
-    <option name="LAST_COMMIT_MESSAGE" value="logging in - with wrong data" />
+    <MESSAGE value="account creation failed/passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="account creation failed/passed" />
   </component>
 </project>
