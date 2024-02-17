@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="creating page object my_account_page.py">
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="first test in page object pattern - creating a new account / failed and passed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/create_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/my_account_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/my_account_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +39,8 @@
     "Python tests.Python tests for create_account.TestCreateAccount.executor": "Run",
     "Python tests.Python tests for create_account.test_create_account_failed.executor": "Run",
     "Python tests.Python tests for create_account.test_create_account_passed.executor": "Run",
+    "Python tests.Python tests for login_test.TestLogIn.executor": "Run",
+    "Python tests.Python tests for login_test.TestLogIn.test_log_in_passed.executor": "Run",
     "Python tests.Python tests for login_test.test_log_in.executor": "Run",
     "Python tests.Python tests for login_test.test_log_in_failed.executor": "Run",
     "Python tests.Python tests for update_billing_address.test_update_billing_address.executor": "Run",
@@ -61,7 +60,7 @@
       <recent name="C:\Users\Master\Desktop\pythonTraining\selenium_demo_project\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for create_account.TestCreateAccount">
+  <component name="RunManager" selected="Python tests.Python tests for login_test.TestLogIn">
     <configuration name="my_account_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium_demo_project" />
       <option name="ENV_FILES" value="" />
@@ -99,18 +98,33 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.create_account.test_create_account_passed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for login_test.TestLogIn" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="selenium_demo_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.create_account.test_create_account_passed&quot;" />
+      <option name="_new_target" value="&quot;login_test.TestLogIn&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for login_test.TestLogIn.test_log_in_passed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="selenium_demo_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login_test.TestLogIn.test_log_in_passed&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -129,28 +143,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in create_account.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="selenium_demo_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/create_account.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for login_test.TestLogIn" />
+        <item itemvalue="Python tests.Python tests for login_test.TestLogIn.test_log_in_passed" />
         <item itemvalue="Python tests.Python tests for create_account.TestCreateAccount" />
         <item itemvalue="Python.my_account_page" />
         <item itemvalue="Python tests.Python tests for update_billing_address.test_update_billing_address" />
-        <item itemvalue="Python tests.Python tests for tests.create_account.test_create_account_passed" />
-        <item itemvalue="Python tests.Python tests in create_account.py" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708166373748</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first test in page object pattern - creating a new account / failed and passed">
+      <option name="closed" value="true" />
+      <created>1708168083284</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708168083284</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +246,7 @@
     <MESSAGE value="update_billing_address.py&#10;with assertion" />
     <MESSAGE value="building locatorsclasses" />
     <MESSAGE value="creating page object my_account_page.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating page object my_account_page.py" />
+    <MESSAGE value="first test in page object pattern - creating a new account / failed and passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test in page object pattern - creating a new account / failed and passed" />
   </component>
 </project>
