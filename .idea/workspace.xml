@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="first test in page object pattern - creating a new account / failed and passed">
+    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="log_in passed and failed with page object pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/billing_address_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/billing_address_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_billing_address.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/update_billing_address.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,8 @@
     "Python tests.Python tests for login_test.TestLogIn.test_log_in_passed.executor": "Run",
     "Python tests.Python tests for login_test.test_log_in.executor": "Run",
     "Python tests.Python tests for login_test.test_log_in_failed.executor": "Run",
+    "Python tests.Python tests for update_billing_address.TestUpdateBillingAddress.executor": "Run",
+    "Python tests.Python tests for update_billing_address.TestUpdateBillingAddress.test_update_billing_address.executor": "Run",
     "Python tests.Python tests for update_billing_address.test_update_billing_address.executor": "Run",
     "Python tests.Python tests in create_account.py.executor": "Run",
     "Python.my_account_page.executor": "Run",
@@ -60,29 +64,7 @@
       <recent name="C:\Users\Master\Desktop\pythonTraining\selenium_demo_project\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for login_test.TestLogIn">
-    <configuration name="my_account_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="selenium_demo_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/my_account_page.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for update_billing_address.TestUpdateBillingAddress.test_update_billing_address">
     <configuration name="Python tests for create_account.TestCreateAccount" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="selenium_demo_project" />
       <option name="ENV_FILES" value="" />
@@ -128,28 +110,43 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for update_billing_address.test_update_billing_address" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for update_billing_address.TestUpdateBillingAddress" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="selenium_demo_project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;update_billing_address.test_update_billing_address&quot;" />
+      <option name="_new_target" value="&quot;update_billing_address.TestUpdateBillingAddress&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for update_billing_address.TestUpdateBillingAddress.test_update_billing_address" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="selenium_demo_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;update_billing_address.TestUpdateBillingAddress.test_update_billing_address&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for update_billing_address.TestUpdateBillingAddress.test_update_billing_address" />
+        <item itemvalue="Python tests.Python tests for update_billing_address.TestUpdateBillingAddress" />
         <item itemvalue="Python tests.Python tests for login_test.TestLogIn" />
         <item itemvalue="Python tests.Python tests for login_test.TestLogIn.test_log_in_passed" />
         <item itemvalue="Python tests.Python tests for create_account.TestCreateAccount" />
-        <item itemvalue="Python.my_account_page" />
-        <item itemvalue="Python tests.Python tests for update_billing_address.test_update_billing_address" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708168083284</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="log_in passed and failed with page object pattern">
+      <option name="closed" value="true" />
+      <created>1708174797761</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708174797761</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +252,7 @@
     <MESSAGE value="building locatorsclasses" />
     <MESSAGE value="creating page object my_account_page.py" />
     <MESSAGE value="first test in page object pattern - creating a new account / failed and passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="first test in page object pattern - creating a new account / failed and passed" />
+    <MESSAGE value="log_in passed and failed with page object pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="log_in passed and failed with page object pattern" />
   </component>
 </project>

@@ -2,8 +2,7 @@ from selenium.webdriver.common.by import By
 
 
 class BillingAddressLocators:
-    reg_email_input = (By.ID, "reg_email")
-    req_password_input = (By.ID, "reg_password")
+
     addresses_link = (By.LINK_TEXT, "Addresses")
     edit_link = (By.LINK_TEXT, "Edit")
     first_name_input = (By.ID, "billing_first_name")
@@ -14,7 +13,7 @@ class BillingAddressLocators:
     city_input = (By.ID, "billing_city")
     phone_input = (By.ID, "billing_phone")
     save_address_button = (By.XPATH, "//button[@value='Save address']")
-    message = (By.XPATH, "//div[@class='woocommerce-message']")
+    message_div = (By.XPATH, "//div[@class='woocommerce-message']")
 
 
 class MyAccountPage:
