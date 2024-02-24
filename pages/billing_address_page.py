@@ -1,7 +1,6 @@
-from selenium.webdriver import Keys
 from selenium.webdriver.support.select import Select
-
 from locators.locators import BillingAddressLocators
+
 
 class BillingAddressPage:
 

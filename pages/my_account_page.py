@@ -1,5 +1,4 @@
 from selenium.webdriver import Keys
-
 from locators import locators
 
 
