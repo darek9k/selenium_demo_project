@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="modification of the test that edits address data - page object&#10;update_billing_address.py">
+    <list default="true" id="537299ac-f8b6-4b75-b2a5-76d7d44d1d4e" name="Changes" comment="readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -236,7 +241,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708180008270</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cleaning">
+      <option name="closed" value="true" />
+      <created>1708784484711</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1708784484711</updated>
+    </task>
+    <task id="LOCAL-00011" summary="readme">
+      <option name="closed" value="true" />
+      <created>1708784623249</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708784623249</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -260,17 +281,8 @@
     <MESSAGE value="first test in page object pattern - creating a new account / failed and passed" />
     <MESSAGE value="log_in passed and failed with page object pattern" />
     <MESSAGE value="modification of the test that edits address data - page object&#10;update_billing_address.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="modification of the test that edits address data - page object&#10;update_billing_address.py" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/update_billing_address.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="cleaning" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
 </project>
